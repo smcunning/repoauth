@@ -1,24 +1,10 @@
-# README
+## RepOAuth
+### Overview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rep0Auth is a practice application to work through implementing OAuth, in this case, OmniAuth with GitHub. A user is able to login using GitHub credentials and are returned to a page showing a linked list of their repos both public and private.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+***
+### Views in Action
+![home](https://i.ibb.co/6vdZH8v/Screen-Shot-2021-01-03-at-11-23-58-AM.png)
+![login](https://i.ibb.co/MkgSHTc/Screen-Shot-2021-01-03-at-11-24-27-AM.png)
+![dashboard](https://i.ibb.co/FXMD59C/Screen-Shot-2021-01-03-at-11-24-56-AM.png)
