@@ -6,7 +6,7 @@
     <h3>Public</h3>
     <ul>
       <% @public.each do |repo| %>
-        <li><%= repo.name %></li>
+        <li><%= link_to "#{repo.name}", "#{repo.url}" %></li>
       <% end %>
     </ul>
   </div>
@@ -14,7 +14,8 @@
     <h3>Private</h3>
     <ul>
       <% @private.each do |repo| %>
-        <li><%= repo.name %></li>
+        <li><%= link_to "#{repo.name}", "#{repo.url}" %></li>
       <% end %>
     </ul>
   </div>
+</div>
