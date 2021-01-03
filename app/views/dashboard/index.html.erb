@@ -1,1 +1,20 @@
-<h1>Dashboard</h1>
+<h1>Hey, <%= current_user.name %>!</h1>
+
+<h2>Your GitHub Repos:</h2>
+<div class="row">
+  <div class="column">
+    <h3>Public</h3>
+    <ul>
+      <% @public.each do |repo| %>
+        <li><%= repo.name %></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Private</h3>
+    <ul>
+      <% @private.each do |repo| %>
+        <li><%= repo.name %></li>
+      <% end %>
+    </ul>
+  </div>
